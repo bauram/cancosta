@@ -2310,6 +2310,10 @@ h1 {
   padding-left: 0;
 }
 
+.rl_navbar1_logo {
+  width: 210px;
+}
+
 .rl_navbar1_menu-buttons {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;

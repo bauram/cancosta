@@ -7675,3 +7675,28 @@ h1 {
     place-self: center;
   }
 }
+
+/* ---------- Ajustes responsive (mobile/tablet) añadidos tras el clon ---------- */
+@media screen and (max-width: 991px) {
+  /* Textos legales: el bloque tenía ancho fijo de 900px */
+  .div-block {
+    width: auto;
+    max-width: 900px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* El Projecte: valors en una sola columna */
+  .div-block-4 {
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .div-block-5 {
+    max-width: 100%;
+    margin-top: 48px;
+  }
+  .div-block-5 .w-layout-grid {
+    grid-template-columns: 1fr;
+  }
+}
